@@ -48,5 +48,13 @@ class Queues
         queue_array[REAR] = num;
     }
 
+    void remove()
+    {
+        // cek apakah antrian kosong
+        if (FRONT == -1)
+        {
+            FRONT = -1;
+            REAR = -1;
+        }
     }
 }
