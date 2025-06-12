@@ -31,6 +31,8 @@ class Queues
         }
         // 2. cek apakah antrian kosong 
         if (FRONT == -1)
+        {
+            FRONT = 0; // 2.a
    
     }
 }
