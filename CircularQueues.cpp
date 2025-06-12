@@ -53,8 +53,9 @@ class Queues
         // cek apakah antrian kosong
         if (FRONT == -1)
         {
-            FRONT = -1;
-            REAR = -1;
+         cout << "Queue underflow\n";
+         return;
         }
+          cout << "\nThe Element deleted from the queue is: " << queue_array[FRONT] << "\n";
     }
 }
